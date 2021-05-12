@@ -1,0 +1,90 @@
+body {
+  background: #232323;
+  color: antiquewhite;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background: lightseagreen;
+  font-size: 2em;
+  transition: background 0.6s;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 1.1;
+  padding: 30px 0;
+}
+
+#colordisplay {
+  font-size: 200%;
+}
+
+.square {
+  margin: 1.6%;
+  width: 30%;
+  padding-bottom: 30%;
+  background: purple;
+  border-radius: 50px;
+  transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+.container {
+  max-width: 900px;
+  display: flex;
+
+  margin: 20px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#stripe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+#stripe button {
+  font-size: 2.5em;
+  padding: 0, 80px;
+  border: 0;
+}
+
+#stripe div {
+  display: flex;
+}
+
+#stripe div button {
+  margin-right: 9px;
+}
+
+#message {
+  color: lightseagreen;
+  font-size: 2.5em;
+}
+
+button {
+  padding: 10px;
+  color: lightseagreen;
+  transition: all 0.3s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+}
+
+button:focus {
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+  background: lightseagreen;
+  color: antiquewhite;
+}
+
+.selected {
+  background: lightseagreen;
+  color: antiquewhite;
+}
